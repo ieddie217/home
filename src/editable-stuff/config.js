@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Eddie",
   middleName: "",
   lastName: "Wang",
-  message: " Passionate about changing the world with technology. ",
+  message: " ",
   icons: [
     {
       image: "fa-github",
@@ -27,11 +27,6 @@ const mainBody = {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/eddie-yh-wang/",
     }
-    // ,
-    // {
-    //   image: "fa-twitter",
-    //   url: "https://www.twitter.com/hashirshoaeb/",
-    // },
   ],
 };
 
@@ -52,10 +47,10 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/eddiewang.JPG"),
+  imageLink: require("../editable-stuff/profile.png"),
   imageSize: 375,
   message:
-    "My name is Eddie Wang. I’m a University of Toronto, St. George graduate of 2020, with a double major in Computer Science and Mathematics.",
+    "I graduated from the University of Toronto, St. George, in 2020 with a double major in Computer Science and Mathematics. I kickstarted my career by initially working in hardware and integrated circuits, then transitioned to a software app developer role. In the ever-evolving tech industry, staying adaptable and continuously learning new technologies is crucial to growth and success. I’m passionate about embracing change and constantly expanding my skills to stay ahead in this dynamic field.",
   resume: "https://drive.google.com/file/d/1MpGsmLnwA4HCORCPqrtqG-KAgsI9vmxH/view",
 };
 
@@ -65,7 +60,7 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: true,
+  show: false,
   heading: "Recent Projects",
   gitHubUsername: "ieddie217", //i.e."johnDoe12Gh"
   reposLength: 0,
@@ -135,18 +130,23 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      companylogo: require('../assets/img/TAITRA-LOGO.jpg'),
+      date: 'March 2023 – Present',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Assistant PM/Sales Manager',
+      companylogo: require('../assets/img/umec.jpg'),
+      date: 'August 2021 – September 2022',
+    },
+    {
+      role: 'Technical Lead',
+      companylogo: require('../assets/img/BELIEVE.png'),
+      date: 'January 2020 – March 2021',
     },
   ]
 }
