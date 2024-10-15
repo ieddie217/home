@@ -135,7 +135,7 @@ const experiences = {
   data: [
     {
       role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/TAITRA-LOGO.jpg'),
+      companylogo: require('../assets/img/TAITRA.png'),
       date: 'March 2023 – Present',
     },
     {
