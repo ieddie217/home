@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fe927caf.css",
+    "main.js": "/static/js/main.180eee4b.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/profile.png": "/static/media/profile.04bc51f2b10e6e0918dd.png",
+    "static/media/eddiewang.JPG": "/static/media/eddiewang.380e24fcd523f8f14e43.JPG",
+    "static/media/umec.jpg": "/static/media/umec.da329883cecee62e84b4.jpg",
+    "static/media/TAITRA-LOGO.jpg": "/static/media/TAITRA-LOGO.512c233d80f612f230b8.jpg",
+    "static/media/BELIEVE.png": "/static/media/BELIEVE.82514d9a6d7b8ca0c052.png",
+    "index.html": "/index.html",
+    "main.fe927caf.css.map": "/static/css/main.fe927caf.css.map",
+    "main.180eee4b.js.map": "/static/js/main.180eee4b.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe927caf.css",
+    "static/js/main.180eee4b.js"
+  ]
+}
