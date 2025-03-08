@@ -51,7 +51,7 @@ const about = {
   imageSize: 375,
   message:
     "I graduated from the University of Toronto, St. George, in 2020 with a double major in Computer Science and Mathematics. I kickstarted my career by initially working in hardware and integrated circuits, then transitioned to a software app developer role. In the ever-evolving tech industry, staying adaptable and continuously learning new technologies is crucial to growth and success. I’m passionate about embracing change and constantly expanding my skills to stay ahead in this dynamic field.",
-  resume: "https://drive.google.com/file/d/1MpGsmLnwA4HCORCPqrtqG-KAgsI9vmxH/view",
+  resume: "https://drive.google.com/file/d/1-6A34oobwY6Pyl_NSU6z6b97-vCFbSbK/view?",
 };
 
 // PROJECTS SECTION
@@ -60,11 +60,11 @@ const about = {
 // If you want to display specfic projects, add the repository names,
 //      i.e ["repository-1", "repo-2"]
 const repos = {
-  show: false,
-  heading: "Recent Projects",
+  show: true,
+  heading: "Works",
   gitHubUsername: "ieddie217", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["NMO", "coloredbox", "ieddie217.github.io", "todolist"],
+  specificRepos: ["Congress", "LINE@", "DURA", "TeamMate"],
 };
 
 // Leadership SECTION
@@ -96,16 +96,18 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 70 },
-    { name: "SQL", value: 75 },
+    { name: "PowerApps", value: 95 },
+    { name: "PowerAutomate", value: 95 },
+    { name: "Dataverse", value: 90 },
+    { name: "UI/UX Design", value: 65},
+    { name: "Python", value: 75 },
+    { name: "C", value:55},
+    { name: "SQL", value: 70 },
     { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 55 },
-    { name: "JavaScript", value: 90 },
+    { name: "JavaScript", value: 80 },
     { name: "React", value: 75 },
     { name: "HTML/CSS", value: 70 },
-    { name: "PowerApps", value: 95 },
-    { name: "PowerAutomate", value: 85 },
-    { name: "Dataverse", value: 85 },
+    { name: "REST API", value: 90 }, 
 
   ],
   softSkills: [
@@ -126,7 +128,7 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "ieddie217@gmail.com",
+  email: "ieddie217tw@gmail.com",
 };
 
 const experiences = {
