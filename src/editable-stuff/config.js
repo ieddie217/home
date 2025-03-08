@@ -64,7 +64,7 @@ const repos = {
   heading: "Works",
   gitHubUsername: "ieddie217", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["Congress", "LINE@", "DURA", "TeamMate"],
+  specificRepos: ["Congress", "LINE-", "DURA", "TeamMate"],
 };
 
 // Leadership SECTION
