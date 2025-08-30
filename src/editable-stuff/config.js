@@ -26,7 +26,7 @@ const mainBody = {
     {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/eddie-yh-wang/",
-    }
+    },
   ],
 };
 
@@ -51,7 +51,8 @@ const about = {
   imageSize: 375,
   message:
     "I graduated from the University of Toronto, St. George, in 2020 with a double major in Computer Science and Mathematics. I kickstarted my career by initially working in hardware and integrated circuits, then transitioned to a software app developer role. In the ever-evolving tech industry, staying adaptable and continuously learning new technologies is crucial to growth and success. I’m passionate about embracing change and constantly expanding my skills to stay ahead in this dynamic field.",
-  resume: "https://drive.google.com/file/d/1-6A34oobwY6Pyl_NSU6z6b97-vCFbSbK/view?",
+  resume:
+    "https://drive.google.com/file/d/1PClpXi599Elih7L5P9lddzhAlRdF13lL/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -63,8 +64,8 @@ const repos = {
   show: true,
   heading: "Works",
   gitHubUsername: "ieddie217", //i.e."johnDoe12Gh"
-  reposLength: 0,
-  specificRepos: ["Congress", "LINE-", "DURA", "TeamMate"],
+  reposLength: 6,
+  specificRepos: [],
 };
 
 // Leadership SECTION
@@ -74,21 +75,21 @@ const leadership = {
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
-    { 
-      img: require("../editable-stuff/eddiewang.JPG"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/eddiewang.JPG"),
+      label: "First slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
-    { 
-      img: require("../editable-stuff/eddiewang.JPG"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+    {
+      img: require("../editable-stuff/eddiewang.JPG"),
+      label: "Second slide label",
+      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
-  }
+    width: "615",
+    height: "450",
+  },
 };
 
 // SKILLS SECTION
@@ -99,16 +100,15 @@ const skills = {
     { name: "PowerApps", value: 95 },
     { name: "PowerAutomate", value: 95 },
     { name: "Dataverse", value: 90 },
-    { name: "UI/UX Design", value: 65},
+    { name: "UI/UX Design", value: 65 },
     { name: "Python", value: 75 },
-    { name: "C", value:55},
+    { name: "C", value: 55 },
     { name: "SQL", value: 70 },
     { name: "Data Structures", value: 85 },
     { name: "JavaScript", value: 80 },
     { name: "React", value: 75 },
     { name: "HTML/CSS", value: 70 },
-    { name: "REST API", value: 90 }, 
-
+    { name: "REST API", value: 90 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -136,26 +136,35 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/TAITRA.png'),
-      date: 'March 2023 – Present',
+      role: "Software Engineer", // Here Add Company Name
+      companylogo: require("../assets/img/TAITRA.png"),
+      date: "March 2023 – Present",
     },
     {
-      role: 'Assistant PM/Sales Manager',
-      companylogo: require('../assets/img/umec.jpg'),
-      date: 'August 2021 – September 2022',
+      role: "Assistant PM/Sales Manager",
+      companylogo: require("../assets/img/umec.jpg"),
+      date: "August 2021 – September 2022",
     },
     {
-      role: 'Technical Lead',
-      companylogo: require('../assets/img/BELIEVE.png'),
-      date: 'January 2020 – March 2021',
+      role: "Technical Lead",
+      companylogo: require("../assets/img/BELIEVE.png"),
+      date: "January 2020 – March 2021",
     },
-  ]
-}
+  ],
+};
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export {
+  navBar,
+  mainBody,
+  about,
+  repos,
+  skills,
+  leadership,
+  getInTouch,
+  experiences,
+};

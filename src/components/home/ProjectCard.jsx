@@ -17,7 +17,7 @@ const ProjectCard = ({ value }) => {
     <Col md={6}>
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded" style={{ height: '280px' }}>
         <Card.Body className="d-flex flex-column">
-          <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
+          <Card.Title as="h3">{name || <Skeleton />} </Card.Title>
           <Card.Text className="flex-grow-1">{(!description) ? "" : description || <Skeleton count={3} />} </Card.Text>
           <div className="mt-auto">
             {svn_url ? <CardButtons svn_url={svn_url} /> : <Skeleton count={2} />}
