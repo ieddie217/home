@@ -96,31 +96,46 @@ const leadership = {
 const skills = {
   show: true,
   heading: "Skills",
+
   hardSkills: [
-    { name: "PowerApps", value: 95 },
-    { name: "PowerAutomate", value: 95 },
-    { name: "Dataverse", value: 90 },
-    { name: "UI/UX Design", value: 65 },
-    { name: "Python", value: 75 },
-    { name: "C", value: 55 },
-    { name: "SQL", value: 70 },
-    { name: "Data Structures", value: 85 },
-    { name: "JavaScript", value: 80 },
-    { name: "React", value: 75 },
-    { name: "HTML/CSS", value: 70 },
+    // odds (1,3,5,...) then evens (2,4,6,...)
+    { name: "Python", value: 90 },
+    { name: "Azure AI Foundry", value: 90 },
+    { name: "SQL & Database Design", value: 85 },
+    { name: "Copilot Studio", value: 85 },
+    { name: "JavaScript (ES6+)", value: 80 },
+    { name: "React", value: 78 },
+    { name: "HTML / CSS", value: 75 },
+    { name: "C", value: 70 },
+
     { name: "REST API", value: 90 },
+    { name: "FastAPI / Flask", value: 88 },
+    { name: "Data Structures & Algorithms", value: 85 },
+    { name: "PowerPlatform", value: 85 },
+    { name: "Postman / API Testing", value: 80 },
+    { name: "CI/CD (GitHub Actions)", value: 78 },
+    { name: "Docker", value: 70 },
+    { name: "UI/UX Design", value: 65 }
   ],
+
   softSkills: [
+    // odds then evens
+    { name: "Communication", value: 90 },
+    { name: "Critical Thinking", value: 90 },
+    { name: "Problem-Solving", value: 90 },
     { name: "Goal-Oriented", value: 80 },
-    { name: "Collaboration", value: 90 },
     { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
+
+    { name: "Collaboration", value: 90 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Adaptability", value: 85 },
+    { name: "Organization", value: 75 },
+    { name: "Creativity", value: 70 }
   ],
 };
+
+
+
 
 // GET IN TOUCH SECTION
 const getInTouch = {
